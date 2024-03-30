@@ -5,7 +5,14 @@ h1 {
     color: white;
     background-color: #61b3e7;
 }
+h1.clicked{
+    color: navy;
+    background-color: lightgray;
+}
 h2 {
     color: #61b3e7;
     margin-left: 40px;
+}
+h1 .node{
+    font-family: monospace;
 }
