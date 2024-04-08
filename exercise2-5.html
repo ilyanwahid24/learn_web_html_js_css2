@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Markup Text</title>
+</head>
+<body>
+    <p>
+        The following definition describes the 
+        <code>ILoggable</code> interface that
+        should be implemented by loggable 
+        data structures. <var>Timestamp</var> 
+        holds the exact time point of the 
+        event to be logged.
+    </p>
+    <pre>using System;
+        namespace Logging
+        {
+            // This interface represent log data.
+            public interface ILoggable
+            {
+                // Gets or sets the time of the event
+                DateTime Timestamp { get; set; }
+            }
+        }
+    </pre>
+    <p>
+        Surround your code with <kbd>&lt;pre&gt;</kbd>
+        to preserve spacing.
+    </p>
+</body>
+</html>
